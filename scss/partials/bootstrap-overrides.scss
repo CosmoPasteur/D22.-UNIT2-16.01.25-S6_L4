@@ -30,3 +30,12 @@
 @import "../../Bootstrap/utilities/api";
 
 // 8. Add additional custom code here
+
+//Aggiunta font size
+$new-font-size: (
+  7: 0.9rem,
+  8: 0.8rem,
+  9: 0.6rem,
+  10: 0.4rem,
+);
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
